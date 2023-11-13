@@ -1,0 +1,28 @@
+.header {
+    padding: 0 16px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(251,186,0);
+background: linear-gradient(90deg, rgba(251,186,0,1) 0%, rgba(251,186,0,0.7161458333333333) 28%, rgba(251,186,0,0.20634191176470584) 49%, rgba(251,186,0,0.6433167016806722) 72%, rgba(251,186,0,1) 100%);
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+}
+
+
+.header img {
+    width: 240px;
+    max-width: 100%;
+}
+
+@media(max-width: 1024px) {
+    header {
+      padding: 0 24px
+    }
+  }
+  @media(max-width: 767px) {
+    header {
+      padding: 0 16px;
+    }
+  }

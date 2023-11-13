@@ -1,0 +1,23 @@
+{
+  "name": "galerry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build",
+    "minify": "node server/minifyImages.js",
+    "transliterateFiles": "node server/transliterate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "image-size": "^1.0.2",
+    "sharp": "^0.32.6"
+  },
+  "engines": {
+    "node": "18.18.0"
+  }
+}
